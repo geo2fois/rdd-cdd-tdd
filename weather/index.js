@@ -1,8 +1,10 @@
 'use strict';
 
+// Declaration of the requirements
 const YQL = require('yql');
 const _ = require('lodash');
 
+// Module that do YQL request (Yahoo query)
 module.exports = (opts, callback) => {
 	opts = opts || [];
 
